@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a modern sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #0056b3; /* Dark blue for header */
+    color: #fff;
+    padding: 20px;
+    width: 100%; /* Ensure the header spans the entire width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px; /* Increase font size for header */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-right: 30px;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.login-button button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff; /* Adjust the color to match your theme */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+
+section {
+    height: 90vh;
+    padding: 20px; /* Reduce padding to fit placard to screen size */
+    text-align: left;
+    width: 80%; /* Set section width to 80% of viewport */
+    background-color: #fff; /* White background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.placard h2, .placard p {
+    font-family: 'Lato', sans-serif; /* Apply the font */
+}
+
+.placard h2 {
+    font-size: 50px; /* Increase the size for headings */
+    font-weight: 700; /* Make the heading bold */
+    color: #333; /* A dark color for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+    padding-bottom: 20px;
+}
+
+.placard p {
+    font-size: 25px; /* Adjust the size for paragraph text */
+    color: #666; /* A lighter color for the text */
+    line-height: 1.6; /* Improve readability */
+}
+
+.image-container img {
+    width: 100%; /* Make the image responsive by setting its width to 100% of the container */
+    max-width: 600px; /* Set a max-width to ensure the image doesn't get too large */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Display block to remove any bottom margin/white space */
+    margin: 0 auto; /* Center the image within its container */
+    border-radius: 10px; /* Optional: Round the corners of the image */
+  }
+
+
+.container {
+    width: 100%;
+}
+
+footer {
+    background-color: #0056b3; /* Dark blue for footer */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure the footer spans the entire width */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+/* Style for paragraphs and lists */
+p, ul {
+    font-size: 30px; /* Default font size */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+p, ol {
+    font-size: 20px; /* Default font size */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+/* Style for links */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
