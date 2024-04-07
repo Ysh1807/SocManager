@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff78;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+}
+
+.event-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.event-date {
+    font-weight: bold;
+}
+
+.event-name {
+    margin-left: 10px;
+}
+
+/* .pdf-icon {
+    margin-left: auto;
+    margin-inline-start: 15;
+
+} */
+
+.pdf-link {
+    display: block;
+}
+
+.pdf-link img {
+    width: 40px;
+    height: 40px;
+    margin-left: 100vh;
+    vertical-align: middle;
+}
+
+.pdf-link:hover img {
+    filter: brightness(0) invert(1);
+}
